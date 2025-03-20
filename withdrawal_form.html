@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Withdrawal Form</title>
+</head>
+<body>
+    <h1>Withdrawal Form</h1>
+    <form action="mailto:empirevirtual99@gmail.com" method="post">
+        <label for="account_number">Account Number:</label><br>
+        <input type="text" id="account_number" name="account_number" required><br><br>
+
+        <label for="bank_name">Bank Name:</label><br>
+        <select id="bank_name" name="bank_name" required>
+            <option value="Access Bank">Access Bank</option>
+            <option value="Citibank">Citibank</option>
+            <option value="Ecobank">Ecobank</option>
+            <option value="Fidelity Bank">Fidelity Bank</option>
+            <option value="First Bank of Nigeria">First Bank of Nigeria</option>
+            <option value="First City Monument Bank">First City Monument Bank</option>
+            <option value="Guaranty Trust Bank">Guaranty Trust Bank</option>
+            <option value="Heritage Bank">Heritage Bank</option>
+            <option value="Jaiz Bank">Jaiz Bank</option>
+            <option value="Keystone Bank">Keystone Bank</option>
+            <option value="Polaris Bank">Polaris Bank</option>
+            <option value="Providus Bank">Providus Bank</option>
+            <option value="Stanbic IBTC Bank">Stanbic IBTC Bank</option>
+            <option value="Standard Chartered Bank">Standard Chartered Bank</option>
+            <option value="Sterling Bank">Sterling Bank</option>
+            <option value="SunTrust Bank">SunTrust Bank</option>
+            <option value="Union Bank">Union Bank</option>
+            <option value="United Bank for Africa">United Bank for Africa</option>
+            <option value="Opay">OPAY</option>
+            <option value="Palmpay">PALMPAY</option>
+            <option value="Unity Bank">Unity Bank</option>
+            <option value="Wema Bank">Wema Bank</option>
+            <option value="Zenith Bank">Zenith Bank</option>
+        </select><br><br>
+
+        <label for="account_holder_name">Account Holder Name:</label><br>
+        <input type="text" id="account_holder_name" name="account_holder_name" required><br><br>
+
+        <label for="withdrawal_amount">Withdrawal Amount:</label><br>
+        <input type="number" id="withdrawal_amount" name="withdrawal_amount" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
